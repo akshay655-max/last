@@ -37,9 +37,7 @@ mongoose.connect(
     console.log("Connected to MongoDB");
   }
 );
-if (process.env.NODE_ENV === 'production') {
-  onlyCallThisInProd();
-}
+
 
 
 
